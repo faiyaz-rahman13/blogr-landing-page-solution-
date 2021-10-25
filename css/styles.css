@@ -1,0 +1,475 @@
+body{
+    padding: 0;
+    margin: 0;
+}
+
+
+body h1 {
+    font-family: 'Overpass', sans-serif;
+}
+
+
+body p{
+    font-family: 'Ubuntu', sans-serif;
+}
+
+/* heading section  */
+
+
+
+
+
+#heading{
+    padding: 4% 10%;
+    text-align: center;
+    border-bottom-left-radius: 70px;
+    background-color: hsl(353, 100%, 62%);
+    background-image: url(../images/bg-pattern-intro.svg) ;
+    background-repeat: no-repeat;
+    background-position: center;
+    color: white;
+}
+
+#heading .navbar{
+
+    margin-bottom: 40px;
+}
+
+#heading .navbar-brand{
+
+    color: white;
+    font-weight: 600;
+    font-size: 2rem;
+    font-family: 'Overpass', sans-serif;
+    margin: 20px;
+}
+
+#heading .nav-link{
+
+    color: rgba(255, 255, 255, 0.753);
+    font-weight: bold;
+    font-size: 1rem;
+    margin: 15px;
+}
+
+#heading .dropdown-item{
+    font-size: .8rem;
+}
+
+:hover.dropdown-item{
+    font-weight: bolder;
+}
+
+.heading-h1{
+
+    font-family: 'Overpass', sans-serif;
+    font-weight: 600;
+    font-size: 2.5rem;
+    margin: 15px;
+}
+
+.heading-p{
+
+    color: rgba(255, 255, 255, 0.692);
+    font-family: 'Overpass', sans-serif;
+    font-size: 300;
+}
+
+#heading .btn{
+    color: white;
+    font-size: 1rem;
+    font-weight: 500;
+    padding: 8px 15px;
+    margin: 5px;
+    border-radius: 25px;
+}
+
+#heading .btn1{
+
+    color: rgba(255, 255, 255, 0.719);
+    padding: 7px 25px;
+}
+
+#heading .btn2{
+    background-color: white;
+    color: hsl(353, 100%, 62%);
+}
+
+#heading .btn2:hover {
+    color: white;
+    background-color: hsla(353, 100%, 79%, 0.678);
+}
+
+#heading .btn3{
+    background-color: transparent;
+    border: solid 2px white;
+}
+#heading .btn3:hover{
+    color:hsl(353, 100%, 62%) ;
+    background-color: white;
+}
+
+
+
+
+
+
+
+
+
+
+
+/* design section  */
+
+
+
+
+#design{
+    padding: 2% 0% 2% 3% ;
+    text-align: center;
+    position: relative;
+}
+
+.design-h1{
+    font-weight: 600;
+    font-size: 2rem;
+    position: absolute;
+    top: 80px;
+    left: 35%;
+}
+
+#design .design-img{
+    width: 100%;
+    position: relative;
+    left: 30px;
+    top: 40px;
+
+}
+
+
+#design .text-sec{
+    padding:11% 5% 0% ;
+}
+
+
+#design .design-text{
+    font-size: 1.4rem;
+    font-weight: bold;
+    text-align: left;
+    margin-bottom: 25px;
+}
+
+
+#design .design-p{
+    color:rgba(0, 0, 0, 0.425);
+    text-align: left;
+    margin-bottom: 75px;
+}
+
+
+
+
+
+
+
+
+
+
+/* art section  */
+
+
+
+
+
+#art .art-sec{
+    border-bottom-left-radius: 100px;
+    border-top-right-radius: 100px;
+    background-color: hsl(237, 17%, 21%);
+    background-image: url(../images/bg-pattern-circles.svg) ;
+    background-position-y: 75%;
+    background-position-x: -10%;
+    background-repeat: no-repeat;
+    background-size:70%;
+    position: relative;
+    height: 50vh;
+    width: 100vw;
+    margin: 75px 0;
+    
+}
+
+
+#art .illustration{
+    position: absolute;
+    top: -80px;
+    width: 80%;
+}
+
+.art-area{
+    padding: 50px 20px 0;
+}
+
+
+#art .art-text{
+    color: white;
+    font-size: 2rem;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+.art-p{
+    color: rgba(255, 255, 255, 0.719);
+    size: .8rem;
+    width: 80%;
+    line-height: 2;
+    font-weight: lighter;
+}
+
+
+
+
+
+
+
+/* endign section  */
+
+
+
+
+
+#ending{
+    margin: 150px 0  50px;
+}
+
+
+.desktop-img{
+    width: 120%;
+    position: relative;
+    left: -200px;
+}
+
+
+.ending-area{
+    padding: 10% 5% 0;
+}
+
+.ending-text{
+    font-size: 1.5rem;
+    font-weight: bold;
+    margin-bottom: 15px;
+}
+
+.ending-p{
+    color: rgba(0, 0, 0, 0.459);
+    width: 75%;
+    line-height: 1.5;
+    margin-bottom: 40px;
+}
+
+
+
+
+
+
+/* footer section  */
+
+
+
+
+#footer{
+    background-color: hsl(240, 10%, 16%);
+    border-top-right-radius: 80px;
+    color: white;
+    padding: 5% 5%;
+}
+
+.footer-brand{
+    font-weight: bold;
+    font-size: 2rem;
+}
+
+.footer-cobrand{
+    font-weight: bold;
+    font-size: .9rem;
+    margin-bottom: 25px;
+    color: white;
+}
+
+.footer-p{
+    font-weight: lighter;
+    font-size: .8rem;
+    margin: 8px 0;
+    color: white;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* mobile version  */
+
+
+
+
+
+
+
+
+@media(max-width:1000px){
+
+
+
+
+    /* design section  */
+
+
+
+
+
+    .design-h1{
+        margin-top: 50px;
+        margin-bottom: 30px;
+        position: static;
+    }
+
+
+    #design .design-img{
+        position: static;
+        width: 80%;
+        left: 0;
+    }
+
+    #design .design-text{
+        text-align: center;
+        line-height: 1.5;
+    }
+
+    #design .design-p{
+        text-align: center;
+        line-height: 1.5;
+        width: 90%;
+        margin: 0 auto;
+        margin-bottom: 60px;
+    }
+
+
+
+
+
+
+    /* art section  */
+
+
+
+    #art{
+        margin-top: 250px;
+        text-align: center;
+    }
+
+    #art .art-sec{
+        height: 100vh;
+        background-size: 150%;
+        background-position: center;
+        background-position-y: -100%;
+    }
+
+    .art-area{
+        padding: 0 ;
+        top: -100px;
+    }
+
+    #art .illustration{
+        position: relative;
+        width: 100%;
+        top: -35%;
+    }
+
+    #art .art-text{
+        width: 100%;
+        font-size: 2.5rem;
+    }
+
+    .art-p{
+        text-align: center;
+        line-height: 2;
+        margin: 0 auto;
+    }
+
+
+
+
+
+    /* ending section  */
+
+
+
+
+    #ending{
+        text-align: center;
+    }
+
+
+    .desktop-img{
+        position: static;
+        width:100%;
+    }
+
+    .ending-text{
+        font-size: 2rem;
+    }
+
+    .ending-p{
+        text-align: center;
+        line-height: 2;
+        margin: 0 auto;
+        margin-bottom: 40px;
+    }
+
+
+
+
+
+
+    /* footer section  */
+
+
+
+
+
+    #footer{
+        text-align: center;
+        padding: 10%;
+    }
+
+    .footer-brand{
+        font-size: 2.5rem;
+        margin-bottom: 40px;
+    }
+
+
+    .footer-cobrand{
+        font-size: 1.5rem;
+        margin-bottom: 30px;
+        margin-top: 40px;
+    }
+
+    .footer-p{
+        font-size: 1rem;
+        margin-bottom: 10px;
+        color: rgba(255, 255, 255, 0.781);
+    }
+}
